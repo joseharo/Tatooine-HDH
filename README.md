@@ -1,7 +1,7 @@
 # Tatooine-HDH
 Repositorio curso desarrollador
 
-Significado de las palabras clave
+Significado de las palabras claves
 
 local 
 
