@@ -61,3 +61,9 @@ Permiten seleccionar elementos en base a información de estado que no está con
 ## Pseudoelementos
 Son abstracciones del árbol que representan entidades más allá de los elementos HTML, por ejemplo HTML no tiene un elemento que describa la primera letra de un párrafo ni los marcadores de una lista; los pseudoelementos representan estas entidades y nos permiten asignarles reglas CSS, de esta forma se pueden diseñar entidades independientes.  
     Ejemplo: La regla p::first-line se aplicará a la primera línea de texto de todos los elementos < p >.
+
+Fuentes de consulta:     
+
+Mozilla (2019). Selectores CSS.  
+Recuperado el 9 de diciembre de 2019 desde:  
+[https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
