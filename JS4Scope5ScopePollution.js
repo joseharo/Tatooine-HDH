@@ -10,6 +10,7 @@ Cuando declara variables globales, van al espacio de nombres global. El espacio 
 Scope pollution is when we have too many global variables that exist in the global namespace, or when we reuse variables across different scopes. Scope pollution makes it difficult to keep track of our different variables and sets us up for potential accidents. For example, globally scoped variables can collide with other variables that are more locally scoped, causing unexpected behavior in our code. 
 La contaminación del alcance es cuando tenemos demasiadas variables globales que existen en el espacio de nombres global, o cuando reutilizamos variables en diferentes ámbitos. La contaminación del alcance dificulta el seguimiento de nuestras diferentes variables y nos prepara para posibles accidentes. Por ejemplo, las variables de alcance global pueden colisionar con otras variables que tienen un alcance más local, causando un comportamiento inesperado en nuestro código.*/
 
+// Example
 let num = 50;
 
 const logNum = () => {
@@ -23,10 +24,10 @@ console.log(num); // Prints 100
 /* You’ll notice:
 Tenemos que:
 
-We have a variable num.
+1. We have a variable num.
 Definimos la variable num.
 
-Inside the function body of logNum(), we want to declare a new variable but forgot to use the let keyword.
+2. Inside the function body of logNum(), we want to declare a new variable but forgot to use the let keyword.
 When we call logNum(), num gets reassigned to 100.
 Dentro del cuerpo de la funcion se declaro una nueva variable sin la palabra reservada let. Cuando llamamos a la funcion logNum(), a num se le reasigna el valor de 100.
 
