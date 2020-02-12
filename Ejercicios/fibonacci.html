@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript"> 
+
+        var n=+prompt("Ingresa el limite de la serie: ")
+        var a = 0;
+        var b = 1;
+        var c = 0;
+
+        while (a <= n) {             
+            document.write(a+'<br>');
+            c = a + b;
+            a = b;
+            b = c;            
+        }  
+        
+    </script>
+        
+</html>
