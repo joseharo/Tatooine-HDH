@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+		<script type="text/javascript">
+
+			function funcion1(numeros){
+
+				do{
+					var number =+prompt("Ingrese un numero (si desea terminar y generar el promedio ingrese un 0)")
+					numeros.push(parseInt(number));	
+				}
+				while (number!=0)
+				return numeros;
+			}
+			
+			function funcion2 (numeros){
+				var suma = 0
+				for (var i = 0; i < numeros.length; i++){			
+					suma+=numeros[i]					
+				}
+				
+				var promedio = suma/(numeros.length-1)
+				
+				document.write("El promedio es: " + promedio)
+			}
+
+			
+			var numeros = [];
+			funcion1 (numeros);
+			funcion2 (numeros);
+
+	</script>
+	
+</body>
+</html>
