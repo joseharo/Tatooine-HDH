@@ -2,7 +2,7 @@
 
 ## Las 6 etapas del Diseño Web
 
-1. Reunión de información
+1. Reunión de información. 
 2. Planeación
 3. Diseño 
 4. Desarrollo
@@ -29,6 +29,7 @@ Abarcar todos los aspectos de la interacción del usuario final con la empresa, 
 
 El definir un mapa de contenidos.
 
+
 ## Explicación de los siguientes términos:
 
 
@@ -38,7 +39,7 @@ Por medio del navegador es que se accede a contenido que se encuentra en interne
 
 ### DNS:
 
-
+El Sistema de Nombres de Dominio funciona como un traductor de nombres de dominio a direcciones IP, funciona similar a un directorio estableciendo la comunicación entre los dispositivos y los sitios a los que se quiere tener acceso.
 
 ### Domain:
 
@@ -50,10 +51,22 @@ Red de redes, integrada por cualquier cantidad de dispositivos desde servidores,
 
 ### IP adress:
 
+Funciona como un identificador por medio de números de un elemento que está conectado a la red.
+
 ### Web app:
+
+Una aplicación web es aquella que se carga en un servidor web y se ejecuta en un navegador sin que sea necesario realizar instalación alguna.
 
 ### Web server:
 
+Podemos iniciar explicando el concepto de servidor, en donde este es un computador y sus programas que tienen como principal fin es el estar al servicio de otras computadoras, dispositivos y personas a los que proporciona información.
+
+Por lo tanto un servidor web es aquel que almacena todos los archivos de sitios web para que sean mostrados a los clientes por medio de los navegadores y utiliza el protocolo HTTP (Hipertext Transferer Protocol).
+
 ### Website:
 
+Un website o sitio web es un conjunto de documentos o páginas con contenido relacionado entre si que por lo regular están escritos en el lenguaje de etiquetado HTML, CSS entre otros.
+
 ### World wide web:
+
+La red o telaraña de alcance mundial descrita por Barners-Lee como la forma de ver toda la información de la que se dispone en internet como un continuo, sin interrupciones.
