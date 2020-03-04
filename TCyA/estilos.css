@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 #productos img {    
-    /*background-color: #512b58;*/
+    background-color: #fff;
     background-size: contain;
     display: flex;    
     margin: auto;
