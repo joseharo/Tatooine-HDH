@@ -12,8 +12,9 @@ body {
 
 .menu {
     background: #fff;
-    padding: 9px 20px;
-    box-shadow: 0px 0px 7px #512b58;  
+    /*padding: 9px 20px;*/
+    padding: 9px 0;
+    box-shadow: 0px 0px 15px #512b58;  
 }
 
 .menu .contenedor {
@@ -54,8 +55,7 @@ nav ul li a:hover {
 
 #productos {
     padding-top: 10px;
-    padding-bottom: 27px;
-
+    padding-bottom: 22px;
 }
 
 #productos h1 {
@@ -81,7 +81,7 @@ nav ul li a:hover {
     display: flex;
     width: 88%;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 75px;
 }
 
 
@@ -118,23 +118,41 @@ nav ul li a:hover {
 }
  
 #uno, #dos, #tres {
-    box-shadow: 30px 40px 40px -44px rgba(0, 0, 0, 0.3);
+    box-shadow: 30px 40px 40px -50px rgba(0, 0, 0, 0.3);
 }
 
 /* FOOTER */
 
 footer {
-    background: linear-gradient(to bottom, #79bac1, #f1f3f4);    
+    background: linear-gradient(to bottom, #2a7886, #79bac1);    
     margin: auto;
     padding: 5px;
+    color: #f1f3f4;
 }
 
 footer .contenedor {    
+    display: flex;    
+    justify-content: space-between;    
     align-items: center;
 }
 
 footer p {
-    text-align: center;
-    color: #512b58;
-    line-height: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    text-align: left;        
+    line-height: 10px;
+}
+
+footer .redes li {
+    display: inline-block;
+    padding: 0 20px;   
+    align-content: space-around;   
+}
+
+footer .redes i {
+    font-size: 25px;  
+}
+
+footer a {    
+    color: #f1f3f4;    
 }
