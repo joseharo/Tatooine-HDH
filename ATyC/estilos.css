@@ -5,8 +5,8 @@ body {
 }
 
 .contenedor {
-    width: 90%;
-    max-width: 1280px;
+    width: 95%;
+    max-width: 1920px;
     margin: auto;
     padding: left;
 }
@@ -54,23 +54,26 @@ nav ul li a:hover {
 }
 
 
-/* PRODUCTOS */
+/* Secciones */
 
-#productos {
+#secciones {
+    width: 80%;
     padding-top: 10px;
     padding-bottom: 22px;
+    margin: auto;
 }
 
-#productos h1 {
+#secciones h1 {
     text-align: center;
     font-family: 'Rubik';
     font-size: 43px;
     font-weight: bold;
     color: #512b58;
     letter-spacing: 7px;
+    margin-bottom: 95px;
 }
 
-#productos p {
+#secciones p {
     font-family: 'Open Sans';    
     font-size: 15px;
     color: #2a7886;
@@ -80,7 +83,7 @@ nav ul li a:hover {
     text-align: justify;
 }
 
-.contenedor-productos {
+.contenedor-secciones {
     display: flex;
     width: 88%;
     margin: auto;
@@ -88,7 +91,7 @@ nav ul li a:hover {
 }
 
 
-#productos h2 {
+#secciones h2 {
     font-family: 'Open Sans';
     font-size: 26px;
     letter-spacing: 4px;
@@ -99,7 +102,7 @@ nav ul li a:hover {
     color: #512b58;
 }
 
-#productos img {    
+#secciones img {    
     background-color: #512b58;
     object-fit: contain;
     display: flex;  
@@ -115,7 +118,7 @@ nav ul li a:hover {
     transition: 0.7s; 
 } 
 
-#productos img:hover {
+#secciones img:hover {
     transform: rotate(360deg);
     transition: 0.7s;        
 }
@@ -158,4 +161,42 @@ footer .redes i {
 
 footer a {    
     color: #f1f3f4;    
+}
+
+/* ESTILOS PAGINA ACCESORIOS */
+
+.accesorios {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    padding: left;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.contenedor-mapa {
+    
+    width: 100%;
+    max-width: 400px;      
+    margin: 0 40px 0 0;
+    background-color: lightgray;
+    
+
+}
+
+.contenedor-accesorios {
+    
+    width: 100%;
+    max-width: 1480px;
+    height: 400px;       
+    background-color: lightblue;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 22px;
 }
