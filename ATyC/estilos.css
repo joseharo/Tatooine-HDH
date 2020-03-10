@@ -176,8 +176,7 @@ footer a {
     
 }
 
-.contenedor-mapa {
-    
+.contenedor-mapa {    
     width: 100%;
     max-width: 400px;      
     margin: 0 40px 0 0;
@@ -186,8 +185,7 @@ footer a {
 
 }
 
-.contenedor-accesorios {
-    
+.contenedor-accesorios {    
     width: 100%;
     max-width: 1480px;
     height: 400px;       
