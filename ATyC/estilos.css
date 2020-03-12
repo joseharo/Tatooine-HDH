@@ -8,26 +8,27 @@ body {
     width: 95%;
     max-width: 1920px;
     margin: auto;
-    padding: left;
+    padding: left;    
 }
 
-.menu {
+.menu {    
     background: #fff;    
-    padding: 9px 0;
-    box-shadow: 0px 0px 15px #512b58;  
+    padding: 17.5px 0;
+    box-shadow: 0px 0px 15px #512b58;                  
 }
 
 .menu .contenedor {
     display: flex;
     justify-content: space-between;    
-    align-items: center;    
+    align-items: center;            
 }
 
 header .logo {
     font-family: 'Rubik'; 
     font-size: 23px;
     font-weight: bold;
-    color: #512b58;      
+    color: #512b58;   
+    text-decoration: none;    
 }
 
 nav ul li {
@@ -47,8 +48,7 @@ nav ul li a:hover {
     font-size: 16.5px;
     padding: 10px 20px;
     color: #512b58;   
-    border: 1px solid #2a7886;
-    /*text-decoration: underline #512b58;*/
+    border: 1px solid #2a7886;    
     border-radius: 5px;
     transition-delay: .2s;
 }
@@ -179,18 +179,28 @@ footer a {
     max-width: 400px; 
     max-height: 400px;
     margin: 85px 40px 0 0;
-    background-color: #f1f3f4;
+    /*background-color: #f1f3f4;*/
 }
 
-.contenedor-mapa h3 {
+.contenedor-mapa h3, .contenedor-mapa-grande h3 {
+    margin: 0;
+    margin-top: 15px;
+    color: #512b58;      
+}
+
+.contenedor-mapa p, .contenedor-mapa-grande p {
     color: #512b58;
+    text-align: justify;    
+    margin: 0;
+    margin-bottom: 20px;
+    
 }
 
 .contenedor-accesorios {    
     width: 100%;
     max-width: 1480px;
     height: 400px;       
-    background-color: #f1f3f4;    
+    background-color: #f1f3f4;        
 }
 
 .accesorios-contenedor h2 {
@@ -210,9 +220,13 @@ footer a {
  .accesorio {
     height: 400px;
     width: 400px;
-    background-color: #f1f3f4;
+    /*background-color: #f1f3f4;*/
     margin: 30px 30px;
     flex-wrap: wrap;
+    -webkit-box-box-shadow: 30px 40px 40px -40px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 30px 40px 40px -40px rgba(0, 0, 0, 0.3);
+    box-shadow: 30px 40px 40px -40px rgba(0, 0, 0, 0.3);
+    
  }
 
  .accesorio img {    
@@ -245,7 +259,7 @@ footer a {
     color: #f1f3f4;
     background-color: #79bac1;
     border-radius: 2px;
-    margin: 95px; 
+    margin: 95px;     
     -webkit-box-shadow: 2px 2px 5px 0px rgba(81,43,88,1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(81,43,88,1);
     box-shadow: 2px 2px 5px 0px rgba(81,43,88,1);
@@ -253,4 +267,15 @@ footer a {
 
 .accesorio a:hover {        
     background-color: #512b58;
+}
+
+/* SECCION UBICANOS */
+
+.contenedor-mapa-grande {    
+    width: 90%;
+    max-width: 800px; 
+    max-height: 800px;        
+    margin: auto;    
+    margin-top: -36px;
+    margin-bottom: 18px;
 }
